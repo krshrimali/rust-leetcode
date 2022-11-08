@@ -1,3 +1,4 @@
+// Status: TLE
 use std::collections::HashMap;
 
 pub fn is_factor_of(
