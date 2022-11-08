@@ -23,10 +23,9 @@ pub fn is_factor_of(
                     continue;
                 }
             }
-        };
-        for j in 0..visited.len() {
-            let val = visited[j];
-            record_map.insert(val, true);
+        }
+        for val in visited.iter() {
+            record_map.insert(*val, true);
         }
         true
     }
