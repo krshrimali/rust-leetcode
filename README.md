@@ -6,5 +6,6 @@ Solving LeetCode problems in Rust
 2. [Count Good Meals](https://leetcode.com/problems/count-good-meals/): [`src/lc_002_count_good_meals.rs`](https://github.com/krshrimali/rust-leetcode/blob/main/src/lc_002_count_good_meals.rs)
 3. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/): [`src/lc_003_valid_parentheses.rs`](https://github.com/krshrimali/rust-leetcode/blob/main/src/lc_003_valid_parentheses.rs)
 4. [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/): [`src/lc_004_best_time_to_buy_and_sell_stock.rs`](https://github.com/krshrimali/rust-leetcode/blob/main/src/lc_004_best_time_to_buy_and_sell_stock.rs)
+5. [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/): [`src/lc_005_maximum_subarray.rs`](https://github.com/krshrimali/rust-leetcode/blob/main/src/lc_005_maximum_subarray.rs)
 
 Full disclosure: I was inspired by [UncleScientist](https://www.youtube.com/c/UncleScientist) to do it this way, specially the testing.
