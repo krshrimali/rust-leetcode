@@ -1,23 +1,4 @@
-// Status: NOT WORKING
 use std::cmp;
-
-pub fn cumsum(left: &mut i32, right: &mut i32, nums: &[i32]) -> i32 {
-    let mut sum = 0;
-    let mut mut_left = *left;
-
-    // if mut_left >= nums.len() as i32 {
-    //     return i32::MIN;
-    // }
-
-    while mut_left <= *right {
-        if mut_left >= nums.len() as i32 {
-            break;
-        }
-        sum += nums[mut_left as usize];
-        mut_left += 1;
-    }
-    sum
-}
 
 pub fn max_sub_array(nums: Vec<i32>) -> i32 {
     let mut max_sum: i32 = i32::MIN;
@@ -36,8 +17,10 @@ pub fn max_sub_array(nums: Vec<i32>) -> i32 {
         if sum < 0 {
             if left == right {
                 right += 1;
+                sum = 0;
+            } else {
+                sum -= nums[left as usize];
             }
-            sum -= nums[left as usize];
             left += 1;
         } else {
             right += 1;
@@ -69,5 +52,10 @@ mod test {
     #[test]
     fn ex4() {
         assert_eq!(max_sub_array([-2, -1, -3, -4].to_vec()), -1);
+    }
+
+    #[test]
+    fn ex5() {
+        assert_eq!(max_sub_array([8, -19, 5, -4, 20].to_vec()), 21);
     }
 }
