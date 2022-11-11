@@ -15,3 +15,6 @@ pub use lc_005_maximum_subarray::*;
 
 pub mod lc_006_overlapping_intervals;
 pub use lc_006_overlapping_intervals::*;
+
+pub mod lc_007_01_matrix;
+pub use lc_007_01_matrix::*;
