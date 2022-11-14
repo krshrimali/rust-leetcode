@@ -21,3 +21,9 @@ pub use lc_007_01_matrix::*;
 
 pub mod lc_008_k_closest_points_to_origin;
 pub use lc_008_k_closest_points_to_origin::*;
+
+pub mod lc_009_jump_game;
+pub use lc_009_jump_game::*;
+
+pub mod lc_0010_jump_game_2;
+pub use lc_0010_jump_game_2::*;
