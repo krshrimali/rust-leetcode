@@ -18,3 +18,6 @@ pub use lc_006_overlapping_intervals::*;
 
 pub mod lc_007_01_matrix;
 pub use lc_007_01_matrix::*;
+
+pub mod lc_008_k_closest_points_to_origin;
+pub use lc_008_k_closest_points_to_origin::*;
