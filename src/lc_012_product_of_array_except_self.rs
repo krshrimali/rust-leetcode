@@ -11,12 +11,16 @@ pub fn product_except_self(nums: Vec<i32>) -> Vec<i32> {
         left_mul[idx] = left_mul[idx - 1] * nums[idx - 1];
     }
 
-    right_mul[nums.len()-1] = 1;
+    right_mul[nums.len() - 1] = 1;
     for idx in (0..nums.len() - 1).rev() {
         right_mul[idx] = right_mul[idx + 1] * nums[idx + 1];
     }
 
-    left_mul.iter().zip(right_mul.iter()).map(|(x, y)| x * y).collect()
+    left_mul
+        .iter()
+        .zip(right_mul.iter())
+        .map(|(x, y)| x * y)
+        .collect()
 }
 
 pub fn product_except_self_space_optimized(nums: Vec<i32>) -> Vec<i32> {
@@ -29,7 +33,7 @@ pub fn product_except_self_space_optimized(nums: Vec<i32>) -> Vec<i32> {
     ans[nums.len() - 1] = 1;
 
     for idx in 1..nums.len() {
-        ans[idx] = ans[idx-1] * nums[idx-1];
+        ans[idx] = ans[idx - 1] * nums[idx - 1];
     }
 
     let mut prod_to_the_right: i32 = 1;
@@ -67,12 +71,18 @@ mod test {
 
     #[test]
     fn ex1_product_except_self_space_optimized() {
-        assert_eq!(product_except_self_space_optimized(vec![1, -1, 2, 0]), vec![0, 0, 0, -2]);
+        assert_eq!(
+            product_except_self_space_optimized(vec![1, -1, 2, 0]),
+            vec![0, 0, 0, -2]
+        );
     }
 
     #[test]
     fn ex2_product_except_self_space_optimized() {
-        assert_eq!(product_except_self_space_optimized(vec![0, 0, 0, 0]), vec![0, 0, 0, 0])
+        assert_eq!(
+            product_except_self_space_optimized(vec![0, 0, 0, 0]),
+            vec![0, 0, 0, 0]
+        )
     }
 
     #[test]
@@ -82,6 +92,9 @@ mod test {
 
     #[test]
     fn ex4_product_except_self_space_optimized() {
-        assert_eq!(product_except_self_space_optimized(vec![1, 4, 3, 6]), vec![72, 18, 24, 12]);
+        assert_eq!(
+            product_except_self_space_optimized(vec![1, 4, 3, 6]),
+            vec![72, 18, 24, 12]
+        );
     }
 }
