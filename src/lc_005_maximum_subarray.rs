@@ -1,3 +1,6 @@
+// Title: Maximum Subarray
+// Link: https://leetcode.com/problems/maximum-subarray/
+
 use std::cmp;
 
 pub fn max_sub_array(nums: Vec<i32>) -> i32 {

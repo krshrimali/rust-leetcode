@@ -1,3 +1,6 @@
+// Title: Count Good Meals
+// Link: https://leetcode.com/problems/count-good-meals
+
 // Status: TLE
 use std::collections::HashMap;
 

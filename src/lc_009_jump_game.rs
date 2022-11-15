@@ -1,3 +1,6 @@
+// Title: Jump Game
+// Link: https://leetcode.com/problems/jump-game/
+
 pub fn can_jump(nums: Vec<i32>) -> bool {
     let mut curr_idx = nums.len() - 1;
 

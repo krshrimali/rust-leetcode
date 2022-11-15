@@ -1,3 +1,6 @@
+// Title: Valid Parentheses
+// Link: https://leetcode.com/problems/valid-parentheses/
+
 pub fn is_valid(inp: String) -> bool {
     let mut paren_stack: Vec<char> = vec![];
     let open_brackets: Vec<char> = vec!['{', '[', '('];

@@ -1,3 +1,6 @@
+// Title: 01 Matrix
+// Link: https://leetcode.com/problems/01-matrix/
+
 // Couldn't do it myself correctly
 // Please refer to: https://leetcode.com/problems/01-matrix/discuss/1370412/rust-bfs-solution
 // Credits to him^

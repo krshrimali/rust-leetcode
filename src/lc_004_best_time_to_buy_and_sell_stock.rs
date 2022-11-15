@@ -1,3 +1,6 @@
+// Title: Best Time to Buy and Sell Stock
+// Link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+
 // it's a maximum difference between 2 elements problem
 // with a condition that the 2 elements should be: a..b and considering b..a is not allowed
 use std::cmp;

@@ -1,3 +1,6 @@
+// Title: K Closest Points to Origin
+// Link: https://leetcode.com/problems/k-closest-points-to-origin/
+
 use std::cmp::Reverse;
 use std::collections::BinaryHeap;
 

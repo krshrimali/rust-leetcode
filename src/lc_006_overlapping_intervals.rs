@@ -1,3 +1,6 @@
+// Title: Insert Interval
+// Link: https://leetcode.com/problems/insert-interval/
+
 pub fn insert(intervals: Vec<Vec<i32>>, new_interval: Vec<i32>) -> Vec<Vec<i32>> {
     let new_start = new_interval[0];
     let new_end = new_interval[1];

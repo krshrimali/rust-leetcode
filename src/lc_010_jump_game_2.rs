@@ -1,3 +1,6 @@
+// Title: Jump Game II
+// Link: https://leetcode.com/problems/jump-game-ii/
+
 use std::cmp;
 
 pub fn jump(nums: Vec<i32>) -> i32 {
