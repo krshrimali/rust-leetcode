@@ -30,3 +30,6 @@ pub use lc_010_jump_game_2::*;
 
 pub mod lc_011_longest_substring_without_repeating_characters;
 pub use lc_011_longest_substring_without_repeating_characters::*;
+
+pub mod lc_012_product_of_array_except_self;
+pub use lc_012_product_of_array_except_self::*;
