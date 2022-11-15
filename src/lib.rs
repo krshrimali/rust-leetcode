@@ -25,8 +25,8 @@ pub use lc_008_k_closest_points_to_origin::*;
 pub mod lc_009_jump_game;
 pub use lc_009_jump_game::*;
 
-pub mod lc_0010_jump_game_2;
-pub use lc_0010_jump_game_2::*;
+pub mod lc_010_jump_game_2;
+pub use lc_010_jump_game_2::*;
 
-pub mod lc_0011_longest_substring_without_repeating_characters;
-pub use lc_0011_longest_substring_without_repeating_characters::*;
+pub mod lc_011_longest_substring_without_repeating_characters;
+pub use lc_011_longest_substring_without_repeating_characters::*;
